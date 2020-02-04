@@ -1,0 +1,20 @@
+{
+  "name": "unitest",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "unitest.js",
+  "scripts": {
+    "test": "jest test.js --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^25.1.0",
+    "coveralls": "^3.0.3",
+    "jest": "^25.1.0",
+    "jest-cli": "^25.1.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.8.4"
+  }
+}
